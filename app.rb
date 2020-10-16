@@ -7,6 +7,7 @@ class Birthday < Sinatra::Base
   end
 
   post '/birthday' do
+    @name = params[:Name]
     @birthday = Date.parse(params[:user_birthday])
     @bdate = Date.new(Date.today.year, @birthday.month, @birthday.day)
     erb :birthday
