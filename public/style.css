@@ -1,0 +1,48 @@
+.greeter {
+  color: salmon;
+  font-size: 70px;
+  text-align: center;  
+}
+
+.bdate {
+  color: salmon;
+  font-size: 50px;
+  text-align: center;  
+}
+
+
+body {
+  background-color: peachpuff;
+  text-align: center;
+} 
+
+.submit_button {
+  position: absolute;
+  top: 38%;
+  left: 48%;
+  background-color: salmon; 
+  border-radius: 8px;
+  color: white;
+  padding: 8px 24px;
+  font-size: 15px;
+  transition-duration: 0.4s;
+}
+
+.submit_button:hover {
+  background-color: peachpuff;
+  color: salmon;
+}
+
+form {
+  color: salmon;
+}
+
+.happy_birthday {
+  background-color: peachpuff;
+  color: salmon;
+  text-align: center;
+  margin-top: 100px;
+  top: 19%;
+  left: 40%;
+}
+

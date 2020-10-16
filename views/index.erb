@@ -1,16 +1,17 @@
 <head>
   <title>sup</title>
-  <link type="text/css" rel="stylesheet" href="<%=url('/styles.css')%>" />
+  <link type="text/css" rel="stylesheet" href="<%=url('/style.css')%>" />
 </head>
 
-<h1> Hey cutie! When is your birthday? </h1>
+<h1 class="greeter"> Hey cutie! </h1>
+<h2 class="bdate"> When is your birthday? </h2>
 
-<body>
+<body class="form">
   <form action="/birthday" method="POST">
     <label for="name">Name:</label>
     <input tyle="text" id="name" name="Name" required>
     <label for="birthday">Birthday:</label>
     <input tyle="text" id="birthday" name="user_birthday" required>
-    <input type="submit" value="Submit">
+    <input class="submit_button"type="submit" value="Submit">
   </form>
 </body>
