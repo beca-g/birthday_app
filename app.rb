@@ -1,4 +1,5 @@
 require 'sinatra'
+require 'shotgun'
 
 class Birthday < Sinatra::Base
   
