@@ -1,14 +1,14 @@
 <head>
-  <title>sup</title>
+  <title> Birthday time! </title>
   <link type="text/css" rel="stylesheet" href="<%=url('/style.css')%>" />
 </head>
 
 
 <body class="happy_birthday">
   <% if @bdate == Date.today %>
-    <h1> Happy Birthday <%= @name.capitalize %>! </h1>
+    <h1 class="bday_today"> Happy Birthday <%= @name.capitalize %>! </h1>
   <% else %>
     <% @bdate += 365.25 if Date.today >= @bdate %>
-    <h1> <%= @name.capitalize %> your birthday is in <%= (@bdate - Date.today).to_i %> days </h1>
+    <h1 class="your_birthday" > <%= @name.capitalize %> your birthday is in <%= (@bdate - Date.today).to_i %> days </h1>
   <% end %>
 </body>

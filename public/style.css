@@ -9,6 +9,16 @@
   font-size: 50px;
   text-align: center;  
 }
+.your_birthday {
+  color: salmon;
+  font-size: 70px;
+  text-align: center;  
+}
+.bday_today {
+  color: salmon;
+  font-size: 70px;
+  text-align: center;  
+}
 
 
 body {
@@ -33,10 +43,6 @@ body {
   color: salmon;
 }
 
-form {
-  color: salmon;
-}
-
 .happy_birthday {
   background-color: peachpuff;
   color: salmon;
@@ -46,3 +52,6 @@ form {
   left: 40%;
 }
 
+form {
+  color: salmon;
+}
