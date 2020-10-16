@@ -1,0 +1,4 @@
+<body class="happy_birthday">
+  <% @bdate += 365.25 if Date.today >= @bdate %>
+  <h1> Your birthday is in <%= (@bdate - Date.today).to_i %> days </h1>
+</body>
